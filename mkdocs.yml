@@ -1,0 +1,5 @@
+site_name: ijtdev/twitchbot Documentation
+site_url: https://twitchbot.itsjusttriz.com
+nav:
+    - Home: index.md
+theme: readthedocs
