@@ -5,8 +5,8 @@ site_url: https://docs.itsjusttriz.com
 theme:
     name: material
     custom_dir: overrides
-    favicon: img/favicon.png
-    logo: img/favicon.png
+    favicon: assets/image/favicon.png
+    logo: assets/image/favicon.png
     palette:
         scheme: slate
         primary: custom
@@ -26,6 +26,9 @@ extra:
         - icon: fontawesome/brands/discord
           link: http://discord.itsjusttriz.com
 extra_css:
-    - stylesheets/extra.css
+    - assets/stylesheets/extra.css
 markdown_extensions:
     - attr_list
+plugins:
+    - search
+    - macros
