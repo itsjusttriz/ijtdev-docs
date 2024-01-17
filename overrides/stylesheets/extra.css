@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Geist Mono Thin';
+    src: url('../font/Geist.Mono/GeistMono-Thin.otf');
+}
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../font/Geist.Mono/GeistMono-Regular.otf');
+}
+
+:root {
+    --md-text-font: 'GeistMono-Regular';
+}
+
+.md-header {
+    background: linear-gradient(45deg, rgb(179, 2, 164) 0%, rgb(8, 162, 225) 100%);
+}
+
+.md-nav__title {
+    background: linear-gradient(180deg, rgb(179, 2, 164) 20%, rgb(8, 162, 225) 100%);
+}
+
+.md-header__button.md-logo img,
+.md-nav__button.md-logo img {
+    height: 2rem !important;
+    background: var(--md-default-bg-color);
+    border-radius: 50%;
+}

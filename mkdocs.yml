@@ -1,5 +1,31 @@
-site_name: ijtdev/twitchbot Documentation
-site_url: https://twitchbot.itsjusttriz.com
+site_name: '@ijtdev - Documentation'
+site_author: itsjusttriz
+site_description: 'Documentation for all projects under the @ijtdev namespace'
+site_url: https://docs.itsjusttriz.com
+theme:
+    name: material
+    custom_dir: overrides
+    favicon: img/favicon.png
+    logo: img/favicon.png
+    palette:
+        scheme: slate
+        primary: custom
+    features:
+        - navigation.expand
+        - navigation.path
+        - toc.integrate
 nav:
-    - Home: index.md
-theme: readthedocs
+    - Overview: index.md
+    # - Commands: twitchbot/commands.md
+
+copyright: Copyright &copy; 2024 ItsJustTriz
+
+extra:
+    generator: false
+    social:
+        - icon: fontawesome/brands/discord
+          link: http://discord.itsjusttriz.com
+extra_css:
+    - stylesheets/extra.css
+markdown_extensions:
+    - attr_list
