@@ -25,3 +25,15 @@
     background: var(--md-default-bg-color);
     border-radius: 50%;
 }
+
+.quote {
+    background-color: #1d1c1c;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+.cmd {
+    background-color: #353333;
+    padding: 3px 10px;
+    border-radius: 50px;
+}
