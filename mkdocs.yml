@@ -17,11 +17,11 @@ theme:
         # - toc.integrate
 nav:
     - Home: index.md
-    - Documentation:
-          - ijtdev/api: 404.md
+    - Projects:
+          - ijtdev/api:
+                - projects/ijtdev/api/index.md
     - Changelog:
           - ijtdev/api: changelog/ijt-api.md
-    # - Commands: twitchbot/commands.md
 
 copyright: Copyright &copy; 2024 ItsJustTriz
 
@@ -32,8 +32,6 @@ extra:
           link: http://discord.itsjusttriz.com
 extra_css:
     - assets/stylesheets/extra.css
-extra_javascript:
-    - js/showTweetShareButton.js
 markdown_extensions:
     - attr_list
     - md_in_html
@@ -44,13 +42,3 @@ markdown_extensions:
           emoji_generator: !!python/name:material.extensions.emoji.to_svg
 plugins:
     - search
-    - macros
-    # - blog:
-    #       blog_dir: changelog
-    #       blog_toc: true
-    #       categories: true
-    #       categories_toc: false
-    #       post_url_format: '{categories}/{slug}'
-    #       post_readtime: true
-    #       archive: false
-    #       draft: true
