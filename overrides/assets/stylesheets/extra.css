@@ -37,3 +37,7 @@
     padding: 3px 10px;
     border-radius: 50px;
 }
+
+.hidden {
+    display: none !important;
+}

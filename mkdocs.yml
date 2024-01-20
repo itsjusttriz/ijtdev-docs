@@ -31,6 +31,8 @@ extra:
           link: http://discord.itsjusttriz.com
 extra_css:
     - assets/stylesheets/extra.css
+extra_javascript:
+    - js/showTweetShareButton.js
 markdown_extensions:
     - attr_list
     - md_in_html
