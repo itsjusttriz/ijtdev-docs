@@ -1,16 +1,3 @@
-@font-face {
-    font-family: 'Geist Mono Thin';
-    src: url('../font/Geist.Mono/GeistMono-Thin.otf');
-}
-@font-face {
-    font-family: 'Geist Mono';
-    src: url('../font/Geist.Mono/GeistMono-Regular.otf');
-}
-
-:root {
-    --md-text-font: 'GeistMono-Regular';
-}
-
 .md-header {
     background: linear-gradient(45deg, rgb(179, 2, 164) 0%, rgb(8, 162, 225) 100%);
 }
@@ -24,20 +11,4 @@
     height: 2rem !important;
     background: var(--md-default-bg-color);
     border-radius: 50%;
-}
-
-.quote {
-    background-color: #1d1c1c;
-    padding: 5px 10px;
-    border-radius: 50px;
-}
-
-.cmd {
-    background-color: #353333;
-    padding: 3px 10px;
-    border-radius: 50px;
-}
-
-.hidden {
-    display: none !important;
 }
