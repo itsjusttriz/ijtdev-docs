@@ -14,12 +14,13 @@ theme:
         - navigation.sections
         - navigation.indexes
         - navigation.path
+        - content.tabs.link
         # - toc.integrate
 nav:
     - Home: index.md
     - Documentation:
           - ijtdev/api:
-                - projects/ijtdev-api/index.md
+                - Get Modpack: projects/ijtdev-api/minecraft-get.md
     - Changelog:
           - ijtdev/api: changelog/ijtdev-api.md
 
@@ -37,6 +38,11 @@ markdown_extensions:
     - md_in_html
     - toc:
           toc_depth: 3
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+          alternate_style: true
     - pymdownx.emoji:
           emoji_index: !!python/name:material.extensions.emoji.twemoji
           emoji_generator: !!python/name:material.extensions.emoji.to_svg

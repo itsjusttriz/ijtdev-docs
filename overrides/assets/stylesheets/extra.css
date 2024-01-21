@@ -17,3 +17,8 @@
     color: rgb(0, 255, 0);
     font-size: x-large;
 }
+
+.transparent-text {
+    color: transparent;
+    font-size: 1px !important;
+}
