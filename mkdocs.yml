@@ -1,7 +1,7 @@
 site_name: 'ijtdev/docs'
 site_author: itsjusttriz
 site_description: 'Documentation for all projects under the @ijtdev namespace'
-site_url: https://docs.itsjusttriz.com
+site_url: https://docs.itsjusttriz.com/
 theme:
     name: material
     custom_dir: overrides
@@ -17,11 +17,11 @@ theme:
         # - toc.integrate
 nav:
     - Home: index.md
-    - Projects:
+    - Documentation:
           - ijtdev/api:
-                - projects/ijtdev/api/index.md
+                - projects/ijtdev-api/index.md
     - Changelog:
-          - ijtdev/api: changelog/ijt-api.md
+          - ijtdev/api: changelog/ijtdev-api.md
 
 copyright: Copyright &copy; 2024 ItsJustTriz
 
